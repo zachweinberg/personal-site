@@ -1,0 +1,30 @@
+{
+  "name": "zachweinberg.com",
+  "version": "1.0.0",
+  "description": "Portfolio website",
+  "main": "server.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zachweinberg/personal-website.git"
+  },
+  "author": "Zach Weinberg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zachweinberg/personal-website/issues"
+  },
+  "homepage": "https://github.com/zachweinberg/personal-website#readme",
+  "dependencies": {
+    "autoprefixer": "^9.7.4",
+    "next": "^9.2.1",
+    "postcss-import": "^12.0.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "tailwindcss": "^1.1.4"
+  }
+}
