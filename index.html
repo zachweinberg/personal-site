@@ -29,11 +29,20 @@
       }
 
       .content {
-        height: 60%;
         color: #fff;
+        margin: 0 auto;
+        max-width: 850px;
         display: flex;
-        align-items: center;
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
+        padding: 5rem;
+      }
+
+      .bio {
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
 
       .avatar {
@@ -60,29 +69,58 @@
       .icon:hover {
         opacity: 0.5;
       }
+
+      .projects {
+        margin-top: 3rem;
+      }
+
+      .project {
+        margin-top: 1rem;
+      }
     </style>
   </head>
   <body>
     <div class="content">
-      <img src="img/avatar.png" class="avatar" />
+      <!-- Start bio -->
       <div class="bio">
-        <h1 class="name">Zach Weinberg</h1>
-        <h2 class="subtitle">Full Stack Web Developer</h2>
-        <div class="icons">
-          <a target="_blank" href="https://github.com/zachweinberg">
-            <img src="img/github.svg" class="icon" />
-          </a>
-          <a target="_blank" href="https://linkedin.com/in/zachjamesweinberg">
-            <img src="img/linkedin.svg" class="icon" />
-          </a>
-          <a target="_blank" href="mailto:zweinbe1@gmail.com">
-            <img src="img/email.svg" class="icon" />
-          </a>
+        <img src="img/avatar.png" class="avatar" />
+        <div>
+          <h1 class="name">Zach Weinberg</h1>
+          <h2 class="subtitle">Full Stack Web Developer</h2>
+          <div class="icons">
+            <a target="_blank" href="https://github.com/zachweinberg">
+              <img src="img/github.svg" class="icon" />
+            </a>
+            <a target="_blank" href="https://linkedin.com/in/zachjamesweinberg">
+              <img src="img/linkedin.svg" class="icon" />
+            </a>
+            <a target="_blank" href="mailto:zweinbe1@gmail.com">
+              <img src="img/email.svg" class="icon" />
+            </a>
+          </div>
         </div>
       </div>
+      <!-- End bio -->
+
+      <!-- Start projects -->
       <div class="projects">
-        <!-- <h3>Some of my recent projects</h3> -->
+        <h3>Recent projects</h3>
+        <div class="project">
+          <p>Pinger</p>
+          <p>
+            An application built with React and Node to help accountants
+            optimize their workflow with pre-defined pings.
+          </p>
+        </div>
+        <div class="project">
+          <p>Tapfood</p>
+          <p>
+            A food delivery website built with React. Live in production and
+            serving the New Jersey area.
+          </p>
+        </div>
       </div>
+      <!-- End projects -->
     </div>
   </body>
 </html>
