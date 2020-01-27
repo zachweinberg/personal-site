@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zachweinberg/personal-website.git"
+    "url": "git+https://github.com/zachweinberg/zachweinberg.com.git"
   },
   "author": "Zach Weinberg",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/zachweinberg/personal-website/issues"
+    "url": "https://github.com/zachweinberg/zachweinberg.com/issues"
   },
-  "homepage": "https://github.com/zachweinberg/personal-website#readme",
+  "homepage": "https://github.com/zachweinberg/zachweinberg.com#readme",
   "dependencies": {
     "autoprefixer": "^9.7.4",
     "next": "^9.2.1",
