@@ -1,12 +1,14 @@
-import UpIcon from '../components/icons/Up'
-import DownIcon from '../components/icons/Down'
-
+import ExternalLinkIcon from '../components/icons/ExternalLink'
 import projects from '../projects.json'
 
 const Project = ({ project }) => (
   <a href={project.url} target="_blank">
-    <div className="rounded-lg p-3 mb-3 border border-gray-700 hover:bg-gray-900">
-      <span className="text-md font-bold">{project.title}</span>
+    <div className="rounded-lg p-3 mb-3 border border-gray-700 hover:bg-gray-900 fade-bg-color">
+      <div className="flex items-center">
+        <span className="text-md font-bold mr-2">{project.title}</span>
+        <ExternalLinkIcon className="fill-current h-3 w-3" />
+      </div>
+
       <p className="text-sm">{project.description}</p>
     </div>
   </a>
@@ -15,14 +17,11 @@ const Project = ({ project }) => (
 const Projects = () => {
   return (
     <>
-      <h3 className="text-center text-xl">My Recent Projects:</h3>
-      <div className="overflow-scroll">
-        <div className="fader-top sticky top-0"></div>
-        {projects.map((project, i) => (
-          <Project project={project} key={i} />
-        ))}
-        <div className="fader-bottom sticky bottom-0"></div>
-      </div>
+      <h3 className="text-center text-xl mb-3">My Recent Projects:</h3>
+      {projects.map((project, i) => (
+        <Project project={project} key={i} />
+      ))}
+      <div className="fader-bottom sticky bottom-0"></div>
     </>
   )
 }
