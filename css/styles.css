@@ -20,3 +20,12 @@ body {
   -moz-transition: color 0.2s ease-in-out;
   -webkit-transition: color 0.2s ease-in-out;
 }
+
+::selection {
+  background: rgb(180, 250, 255);
+  color: #000;
+}
+::-moz-selection {
+  background: rgb(180, 250, 255);
+  color: #000;
+}
