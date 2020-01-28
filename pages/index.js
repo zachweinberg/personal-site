@@ -7,6 +7,7 @@ const Index = () => (
   <Layout>
     <Bio />
     <Projects />
+    <p style={{ opacity: '0' }}>zweinbe1@gmail.com</p>
   </Layout>
 )
 
