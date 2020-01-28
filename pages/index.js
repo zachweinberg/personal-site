@@ -6,7 +6,7 @@ import Projects from '../components/Projects'
 const Index = () => (
   <Layout>
     <Bio />
-    {/* <Projects /> */}
+    <Projects />
   </Layout>
 )
 

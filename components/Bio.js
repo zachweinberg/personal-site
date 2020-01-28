@@ -4,7 +4,7 @@ import EmailIcon from '../components/icons/Email'
 
 const Bio = () => {
   return (
-    <div className="flex flex-col items-center mb-8">
+    <div className="flex flex-col items-center flex-shrink-0 mb-8">
       <img className="rounded-full w-48 mb-2" src="img/avatar.png" />
       <h1 className="text-3xl">Zach Weinberg</h1>
       <h2 className="text-lg mb-2">Full Stack Web Developer</h2>
