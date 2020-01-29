@@ -7,10 +7,10 @@ const Layout = ({ children }) => {
       <Head>
         <title>Zach Weinberg | Web Developer</title>
       </Head>
-      <main className="antialiased flex flex-col min-h-screen max-w-2xl mx-auto p-8 text-white">
+      <main className="antialiased flex flex-col min-h-screen max-w-2xl mx-auto p-6 text-white">
         {children}
         <footer className="text-center text-gray-700 mt-5">
-          <p className="mb-3">Zach Weinberg &copy; {new Date().getFullYear()}</p>
+          <p className="mb-1">Zach Weinberg &copy; {new Date().getFullYear()}</p>
           <a
             className="hover:text-gray-300 fade-color"
             href="https://github.com/zachweinberg/zachweinberg.com"
