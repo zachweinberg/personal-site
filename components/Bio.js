@@ -15,7 +15,7 @@ const Bio = () => {
         <a href="https://linkedin.com/in/zachjamesweinberg" target="_blank">
           <LinkedinIcon fill="#fff" className="mr-5 h-8 w-8 fill-current hover:text-blue-500 fade-color" />
         </a>
-        <a href="mailto:zweinbe1@gmail.com">
+        <a href="mailto:zweinberg3@gmail.com">
           <EmailIcon fill="#fff" className="mr-5 h-8 w-8 fill-current hover:text-red-500 fade-color" />
         </a>
       </div>
