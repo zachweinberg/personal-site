@@ -1,5 +1,6 @@
 import GithubIcon from '../components/icons/Github'
 import LinkedinIcon from '../components/icons/Linkedin'
+import PaperIcon from '../components/icons/Paper'
 import EmailIcon from '../components/icons/Email'
 
 const Bio = () => {
@@ -17,6 +18,9 @@ const Bio = () => {
         </a>
         <a href="mailto:zweinberg3@gmail.com">
           <EmailIcon fill="#fff" className="mr-5 h-8 w-8 fill-current hover:text-red-500 fade-color" />
+        </a>
+        <a href="/resume.pdf" target="_blank">
+          <PaperIcon fill="#fff" className="mr-5 h-8 w-8 fill-current hover:text-yellow-500 fade-color" />
         </a>
       </div>
     </div>

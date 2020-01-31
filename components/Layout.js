@@ -10,7 +10,7 @@ const Layout = ({ children }) => {
       <main className="antialiased flex flex-col min-h-screen max-w-2xl mx-auto p-6 text-white">
         {children}
         <footer className="text-center text-gray-700 mt-5">
-          <p className="mb-1">Zach Weinberg &copy; {new Date().getFullYear()}</p>
+          <p className="mb-1">&copy; {new Date().getFullYear()} Zach Weinberg</p>
           <a
             className="hover:text-gray-300 fade-color"
             href="https://github.com/zachweinberg/zachweinberg.com"
