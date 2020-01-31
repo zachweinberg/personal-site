@@ -4,11 +4,7 @@
     "description": "A tool for accountants that allows them to configure their own ping alerts from QuickBooks Online or Xero.",
     "url": "https://ifpinger.ai"
   },
-  {
-    "title": "Rep Rat",
-    "description": "A commissions tracking application for QuickBooks users to automatically keep track of their sales performances.",
-    "url": "https://reprat.io"
-  },
+
   {
     "title": "Tapfood",
     "description": "A webapp for a food delivery service based in New Jersey. Orders coming in everyday!",
@@ -18,5 +14,10 @@
     "title": "My Bus Home",
     "description": "A website for a bus transportation business that transports college students to and from colleges along the east coast.",
     "url": "https://www.mybushome.com"
+  },
+  {
+    "title": "Rep Rat (In progress)",
+    "description": "A commissions tracking application for QuickBooks users to automatically keep track of their sales performances.",
+    "url": "https://reprat.io"
   }
 ]
