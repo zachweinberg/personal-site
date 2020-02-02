@@ -10,14 +10,14 @@
     "url": "https://www.tapfood.us"
   },
   {
-    "title": "Phish Player (In progress)",
-    "description": "A small app to explore the music of the band Phish and search and play songs. Backed by the phish.in API.",
-    "url": "https://phish.zachweinberg.com"
-  },
-  {
     "title": "My Bus Home",
     "description": "A website for a bus transportation business that transports college students to and from colleges along the east coast.",
     "url": "https://www.mybushome.com"
+  },
+  {
+    "title": "Phish Player (In progress)",
+    "description": "A small app to explore the music of the band Phish and search and play songs. Backed by the phish.in API.",
+    "url": "https://phish.zachweinberg.com"
   },
   {
     "title": "Rep Rat (In progress)",
