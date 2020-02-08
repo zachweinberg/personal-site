@@ -11,7 +11,7 @@ const Bio = () => {
       <h2 className="text-lg mb-2">Full Stack Web Developer</h2>
       <div className="flex justify-between text-white">
         <a href="https://github.com/zachweinberg" target="_blank">
-          <GithubIcon className="mr-5 h-8 w-8 fill-current hover:text-green-500 fade-color" />
+          <GithubIcon fill="#fff" className="mr-5 h-8 w-8 fill-current hover:text-green-500 fade-color" />
         </a>
         <a href="https://linkedin.com/in/zachjamesweinberg" target="_blank">
           <LinkedinIcon fill="#fff" className="mr-5 h-8 w-8 fill-current hover:text-blue-500 fade-color" />
