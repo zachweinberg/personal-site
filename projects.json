@@ -5,6 +5,11 @@
     "url": "https://ifpinger.ai"
   },
   {
+    "title": "My Bus Home",
+    "description": "A website for a bus transportation business that transports college students to and from colleges along the east coast.",
+    "url": "https://www.mybushome.com"
+  },
+  {
     "title": "Tapfood",
     "description": "A webapp built with React for a food delivery service based in New Jersey. Orders coming in everyday!",
     "url": "https://www.tapfood.us"
@@ -13,15 +18,5 @@
     "title": "Phish Player",
     "description": "A small app to explore the music of the band Phish and search and play songs. Backed by the phish.in API.",
     "url": "https://phish.zachweinberg.com"
-  },
-  {
-    "title": "My Bus Home",
-    "description": "A website for a bus transportation business that transports college students to and from colleges along the east coast.",
-    "url": "https://www.mybushome.com"
-  },
-  {
-    "title": "Rep Rat (In progress)",
-    "description": "A commissions tracking application for QuickBooks users to automatically keep track of their sales performances.",
-    "url": "https://app.reprat.io"
   }
 ]
