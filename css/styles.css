@@ -29,3 +29,38 @@ body {
   background: rgb(180, 250, 255);
   color: #000;
 }
+
+.icon-tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.icon-tooltip-text {
+  visibility: hidden;
+  position: absolute;
+  background-color: #fff;
+  border: 2px solid rgb(80, 80, 80);
+  border-radius: 4px;
+  color: #000;
+  padding: 2px 4px;
+  opacity: 0;
+  font-size: 0.85rem;
+  transition: opacity 0.5s;
+  bottom: -110%;
+}
+
+.icon-tooltip .icon-tooltip-text::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.icon-tooltip:hover .icon-tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}

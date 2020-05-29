@@ -10,17 +10,21 @@ const Bio = () => {
       <h1 className="text-3xl">Zach Weinberg</h1>
       <h2 className="text-lg mb-2">Full Stack Web Developer</h2>
       <div className="flex justify-between text-white">
-        <a href="https://github.com/zachweinberg" target="_blank">
+        <a href="https://github.com/zachweinberg" target="_blank" className="icon-tooltip">
           <GithubIcon fill="#fff" className="mr-5 h-8 w-8 fill-current hover:text-green-500 fade-color" />
+          <span className="icon-tooltip-text">GitHub</span>
         </a>
-        <a href="https://linkedin.com/in/zachjamesweinberg" target="_blank">
+        <a href="https://linkedin.com/in/zachjamesweinberg" target="_blank" className="icon-tooltip">
           <LinkedinIcon fill="#fff" className="mr-5 h-8 w-8 fill-current hover:text-blue-500 fade-color" />
+          <span className="icon-tooltip-text">LinkedIn</span>
         </a>
-        <a href="mailto:zweinberg3@gmail.com">
+        <a href="mailto:zweinberg3@gmail.com" className="icon-tooltip">
           <EmailIcon fill="#fff" className="mr-5 h-8 w-8 fill-current hover:text-red-500 fade-color" />
+          <span className="icon-tooltip-text">Email</span>
         </a>
-        <a href="/resume.pdf" target="_blank">
+        <a href="/resume.pdf" target="_blank" className="icon-tooltip">
           <PaperIcon fill="#fff" className="mr-5 h-8 w-8 fill-current hover:text-yellow-500 fade-color" />
+          <span className="icon-tooltip-text">Resume</span>
         </a>
       </div>
     </div>
