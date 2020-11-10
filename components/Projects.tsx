@@ -1,4 +1,4 @@
-import ExternalLinkIcon from '../components/icons/ExternalLink'
+import ExternalLinkIcon from './icons/ExternalLink'
 import projects from '../projects.json'
 
 const Project = ({ project }) => (

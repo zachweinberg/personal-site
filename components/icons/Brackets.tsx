@@ -1,4 +1,4 @@
-export default props => (
+const Brackets = (props) => (
   <svg {...props} version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
     <g transform="translate(192 48)">
       <path d="M-187.148-31.646l6.721-6.72c0.671-0.672,0.671-1.76,0-2.432c-0.672-0.672-1.76-0.672-2.432,0l-7.91,7.91   c-0.344,0.342-0.51,0.793-0.504,1.24c-0.006,0.448,0.16,0.896,0.504,1.239l7.91,7.91c0.67,0.671,1.76,0.671,2.432,0   c0.673-0.672,0.671-1.76,0-2.432L-187.148-31.646L-187.148-31.646z" />
@@ -7,3 +7,5 @@ export default props => (
     </g>
   </svg>
 )
+
+export default Brackets

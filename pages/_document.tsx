@@ -1,6 +1,7 @@
+import React from 'react'
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 
-class NextSite extends Document {
+export default class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
@@ -19,5 +20,3 @@ class NextSite extends Document {
     )
   }
 }
-
-export default NextSite

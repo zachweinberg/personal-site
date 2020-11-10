@@ -1,7 +1,7 @@
-import GithubIcon from '../components/icons/Github'
-import LinkedinIcon from '../components/icons/Linkedin'
-import PaperIcon from '../components/icons/Paper'
-import EmailIcon from '../components/icons/Email'
+import GithubIcon from './icons/Github'
+import LinkedinIcon from './icons/Linkedin'
+import PaperIcon from './icons/Paper'
+import EmailIcon from './icons/Email'
 
 const Bio = () => {
   return (

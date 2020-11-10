@@ -1,6 +1,6 @@
 import Head from 'next/head'
+import BracketsIcon from './icons/Brackets'
 
-import BracketsIcon from '../components/icons/Brackets'
 const Layout = ({ children }) => {
   return (
     <>
