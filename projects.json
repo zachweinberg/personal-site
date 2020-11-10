@@ -1,5 +1,10 @@
 [
   {
+    "title": "Songtree (in progress)",
+    "description": "A complete song database backed by the Spotify API!",
+    "url": "https://songtree.vercel.app"
+  },
+  {
     "title": "Pinger",
     "description": "A tool for accountants that allows them to configure their own ping alerts from QuickBooks Online or Xero.",
     "url": "https://ifpinger.ai"

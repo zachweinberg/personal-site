@@ -8,7 +8,7 @@ const Bio = () => {
     <div className="flex flex-col items-center mb-8">
       <img className="rounded-full w-48 mb-2" src="img/avatar.png" />
       <h1 className="text-3xl">Zach Weinberg</h1>
-      <h2 className="text-lg mb-2">Full Stack Web Developer</h2>
+      <h2 className="text-lg mb-2">Full-Stack Web Engineer</h2>
       <div className="flex justify-between text-white">
         <a href="https://github.com/zachweinberg" target="_blank" className="icon-tooltip">
           <GithubIcon fill="#fff" className="mr-5 h-8 w-8 fill-current hover:text-green-500 fade-color" />

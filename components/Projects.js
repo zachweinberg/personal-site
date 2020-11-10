@@ -3,7 +3,7 @@ import projects from '../projects.json'
 
 const Project = ({ project }) => (
   <a href={project.url} target="_blank">
-    <div className="rounded-lg p-3 mb-3 border border-gray-700 hover:bg-gray-900 fade-bg-color">
+    <div className="project-card rounded-lg p-3 mb-3 border border-gray-700 hover:bg-gray-900 fade-bg-color">
       <div className="flex items-center">
         <span className="text-lg font-bold mr-2">{project.title}</span>
         <ExternalLinkIcon className="fill-current h-3 w-3" />
