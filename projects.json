@@ -2,7 +2,7 @@
   {
     "title": "SONGTREE (in progress)",
     "description": "A complete song database backed by the Spotify API",
-    "url": "https://songtree.app"
+    "url": "https://songtree.vercel.app"
   },
   {
     "title": "Pinger",
