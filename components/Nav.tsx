@@ -19,6 +19,9 @@ const Nav: React.FunctionComponent = () => {
       >
         LinkedIn
       </a>
+      <a className="p-4 text-md hover:text-gray-300" href="/resume.pdf" target="_blank">
+        Resume
+      </a>
     </nav>
   )
 }
