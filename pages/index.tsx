@@ -2,6 +2,7 @@ import { NextPage } from 'next'
 import Heading from '~/components/Heading'
 import Layout from '~/components/Layout'
 import Projects from '~/components/Projects'
+import SpotifyTracks from '~/components/SpotifyTracks'
 
 const Index: NextPage = () => (
   <Layout>
@@ -24,10 +25,10 @@ const Index: NextPage = () => (
       </div>
       <div>
         <Heading subheading title="What I'm Listening To" />
-        <p className="text-gray-400 text-lg mb-14">
-          I always (seriously) have Spotify open. If you're curious, check out what my top tracks have been
-          recently:
+        <p className="text-gray-400 text-lg mb-4">
+          I always (seriously) have Spotify open. My current top tracks are below:
         </p>
+        <SpotifyTracks />
       </div>
     </div>
   </Layout>
