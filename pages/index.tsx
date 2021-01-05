@@ -2,7 +2,7 @@ import { NextPage } from 'next'
 import Heading from '~/components/Heading'
 import Layout from '~/components/Layout'
 import Projects from '~/components/Projects'
-import SpotifyTracks from '~/components/SpotifyTracks'
+import SpotifyArtists from '~/components/SpotifyArtists'
 
 const Index: NextPage = () => (
   <Layout>
@@ -24,11 +24,11 @@ const Index: NextPage = () => (
         <Projects />
       </div>
       <div>
-        <Heading subheading title="What I'm Listening To" />
+        <Heading subheading title="Who I'm Listening To" />
         <p className="text-gray-400 text-lg mb-4">
-          I always (seriously) have Spotify open. My current top tracks are below:
+          I always have Spotify open. My top played artists over the past month are:
         </p>
-        <SpotifyTracks />
+        <SpotifyArtists />
       </div>
     </div>
   </Layout>

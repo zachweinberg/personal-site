@@ -1,9 +1,9 @@
 import querystring from 'querystring'
 
-export interface FormattedTrack {
-  artist: string
-  title: string
-  songUrl: string
+export interface FormattedSpotifyArtist {
+  name: string
+  followers: number
+  artistUrl: string
 }
 
 const {
@@ -32,18 +32,18 @@ const getAccessToken = async () => {
   return response.json()
 }
 
-export const getTopSpotifySongs = async (): Promise<FormattedTrack[]> => {
+export const getTopSpotifyArtists = async (): Promise<FormattedSpotifyArtist[]> => {
   const { access_token } = await getAccessToken()
-  const response = await fetch(`https://api.spotify.com/v1/me/top/tracks`, {
+  const response = await fetch(`https://api.spotify.com/v1/me/top/artists?limit=15&time_range=short_term`, {
     headers: {
       Authorization: `Bearer ${access_token}`,
     },
   })
   const { items } = await response.json()
-  const tracks: FormattedTrack[] = items.slice(0, 10).map((track) => ({
-    artist: track.artists.map((_artist) => _artist.name).join(', '),
-    songUrl: track.external_urls.spotify,
-    title: track.name,
+  const artists: FormattedSpotifyArtist[] = items.map((track) => ({
+    followers: track.followers.total,
+    artistUrl: track.external_urls.spotify,
+    name: track.name,
   }))
-  return tracks
+  return artists
 }
