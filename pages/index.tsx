@@ -8,7 +8,7 @@ const Index: NextPage = () => (
   <Layout>
     <div>
       <div className="flex items-center">
-        <img className="rounded-full w-36 mr-6 mb-6" src="img/zach.png" />
+        <img className="rounded-full w-24 md:w-36 mr-6 mb-6" src="img/zach.png" />
         <Heading title="Hi there, I'm Zach" />
       </div>
       <p className="text-gray-400 text-lg mb-14">
