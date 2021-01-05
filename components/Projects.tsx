@@ -1,9 +1,13 @@
+import { getProjects, Project as ProjectInterface } from '~/lib/projects'
 import ExternalLinkIcon from './icons/ExternalLink'
-import projects from '../projects.json'
 
-const Project = ({ project }) => (
+interface ProjectProps {
+  project: ProjectInterface
+}
+
+const Project: React.FunctionComponent<ProjectProps> = ({ project }: ProjectProps) => (
   <a href={project.url} target="_blank">
-    <div className="project-card rounded-lg p-3 mb-3 border border-gray-700 hover:bg-gray-900 fade-bg-color">
+    <div className="rounded-lg px-6 py-4 h-full border border-gray-700 hover:bg-gray-900 fade-bg-color">
       <div className="flex items-center">
         <span className="text-lg font-bold mr-2">{project.title}</span>
         <ExternalLinkIcon className="fill-current h-3 w-3" />
@@ -15,14 +19,14 @@ const Project = ({ project }) => (
 )
 
 const Projects = () => {
+  const projects = getProjects()
+
   return (
-    <>
-      <h3 className="text-center text-xl mb-3">Recent Projects:</h3>
-      {projects.map((project, i) => (
-        <Project project={project} key={i} />
+    <div className="grid grid-cols-2 gap-3">
+      {projects.map((project, index) => (
+        <Project project={project} key={index} />
       ))}
-      <div className="fader-bottom sticky bottom-0"></div>
-    </>
+    </div>
   )
 }
 

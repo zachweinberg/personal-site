@@ -1,26 +1,13 @@
-import Head from 'next/head'
-import BracketsIcon from './icons/Brackets'
+import Footer from '~/components/Footer'
+import Nav from '~/components/Nav'
 
-const Layout = ({ children }) => {
+const Layout: React.FunctionComponent = ({ children }) => {
   return (
-    <>
-      <Head>
-        <title>Zach Weinberg | Web Developer</title>
-      </Head>
-      <main className="antialiased flex flex-col min-h-screen max-w-2xl mx-auto p-6 text-white">
-        {children}
-        <footer className="text-center text-gray-700 mt-5">
-          <p className="mb-1">&copy; {new Date().getFullYear()} Zach Weinberg</p>
-          <a
-            className="hover:text-gray-300 fade-color"
-            href="https://github.com/zachweinberg/zachweinberg.com"
-            target="_blank"
-          >
-            View Code <BracketsIcon className="inline fill-current w-4 h-4" />
-          </a>
-        </footer>
-      </main>
-    </>
+    <div className="flex flex-col min-h-screen max-w-3xl mx-auto p-6 text-white">
+      <Nav />
+      <main>{children}</main>
+      <Footer />
+    </div>
   )
 }
 
