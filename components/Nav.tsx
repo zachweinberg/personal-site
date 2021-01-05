@@ -23,7 +23,7 @@ const Nav: React.FunctionComponent = () => {
       >
         LinkedIn
       </a>
-      <a className="pr-2 md:pr-6 md:text-lg hover:text-gray-300" href="/resume.pdf" target="_blank">
+      <a className="pr-2 md:pr-6 md:text-lg hover:text-gray-300" href="/static/resume.pdf" target="_blank">
         Resume
       </a>
     </nav>
