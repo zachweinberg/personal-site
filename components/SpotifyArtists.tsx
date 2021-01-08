@@ -8,10 +8,10 @@ const fetcher = async () => {
 }
 
 const SpotifyArtists: React.FunctionComponent = () => {
-  const { data, error } = useSWR('/api/spotify-artists', fetcher)
+  const { data, error } = useSWR('/api/spotify-artists', fetcher, {})
 
   if (error) {
-    return <p>Could not load Spotify artists...</p>
+    return null
   }
 
   if (!data) {
@@ -23,18 +23,18 @@ const SpotifyArtists: React.FunctionComponent = () => {
   return (
     <div>
       {artists.map((artist, i) => (
-        <AristCard artist={artist} rank={i + 1} />
+        <ArtistCard artist={artist} rank={i + 1} />
       ))}
     </div>
   )
 }
 
-interface AristCardProps {
+interface ArtistCardProps {
   artist: FormattedSpotifyArtist
   rank: number
 }
 
-const AristCard: React.FunctionComponent<AristCardProps> = ({ artist, rank }: AristCardProps) => {
+const ArtistCard: React.FunctionComponent<ArtistCardProps> = ({ artist, rank }: ArtistCardProps) => {
   return (
     <a href={artist.artistUrl} target="_blank">
       <div className="flex mb-2 border-b border-gray-800 text-lg px-4 py-2 hover:border-gray-500">
