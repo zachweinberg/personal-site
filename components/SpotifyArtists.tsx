@@ -8,7 +8,7 @@ const fetcher = async () => {
 }
 
 const SpotifyArtists: React.FunctionComponent = () => {
-  const { data, error } = useSWR('/api/spotify-artists', fetcher, {})
+  const { data, error } = useSWR('/api/spotify-artists', fetcher, { revalidateOnFocus: false })
 
   if (error) {
     return null
@@ -23,7 +23,7 @@ const SpotifyArtists: React.FunctionComponent = () => {
   return (
     <div>
       {artists.map((artist, i) => (
-        <ArtistCard artist={artist} rank={i + 1} />
+        <ArtistCard artist={artist} rank={i + 1} key={i} />
       ))}
     </div>
   )
