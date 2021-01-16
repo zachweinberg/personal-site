@@ -12,8 +12,7 @@ const Project: React.FunctionComponent<ProjectProps> = ({ project }: ProjectProp
         <span className="text-lg font-bold mr-2">{project.title}</span>
         <ExternalLinkIcon className="fill-current h-3 w-3" />
       </div>
-
-      <p className="text-md">{project.description}</p>
+      <p className="text-md text-gray-400">{project.description}</p>
     </div>
   </a>
 )

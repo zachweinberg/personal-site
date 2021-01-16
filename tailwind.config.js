@@ -1,8 +1,14 @@
+const { fontFamily } = require('tailwindcss/defaultTheme')
+
 module.exports = {
-  purge: false,
+  purge: ['./components/**/*.{js,ts,jsx,tsx}', './pages/**/*.{js,ts,jsx,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['Karla', ...fontFamily.sans],
+      },
+    },
   },
   variants: {
     extend: {},

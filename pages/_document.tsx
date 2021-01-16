@@ -6,6 +6,7 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+          <link rel="preload" href="/fonts/karla.ttf" as="font" type="font/ttf" crossOrigin="anonymous" />
           <meta name="theme-color" content="#000" />
           <meta name="description" content="Zach Weinberg | Full Stack Web Engineer"></meta>
         </Head>
