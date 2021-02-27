@@ -24,10 +24,6 @@ const Index: NextPage = () => (
         <Projects />
       </div>
       <div>
-        <Heading subheading title="Who I'm Listening To" />
-        <p className="text-gray-400 text-lg mb-4">
-          I always have Spotify open. My top played artists over the past month are:
-        </p>
         <SpotifyArtists />
       </div>
     </div>

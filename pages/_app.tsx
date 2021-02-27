@@ -1,6 +1,7 @@
 import { DefaultSeo } from 'next-seo'
 import { AppProps } from 'next/app'
 import Head from 'next/head'
+import { SkeletonTheme } from 'react-loading-skeleton'
 import '~/styles/globals.css'
 
 const title = 'Zach Weinberg - Full Stack Web Engineer'
@@ -23,7 +24,9 @@ export default function App({ Component, pageProps }: AppProps) {
         <title>Zach Weinberg - Full Stack Web Engineer</title>
       </Head>
       <DefaultSeo {...SEO} />
-      <Component {...pageProps} />
+      <SkeletonTheme color="#191919" highlightColor="#404040">
+        <Component {...pageProps} />
+      </SkeletonTheme>
     </>
   )
 }

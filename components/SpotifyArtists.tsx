@@ -1,4 +1,6 @@
+import Skeleton from 'react-loading-skeleton'
 import useSWR from 'swr'
+import Heading from '~/components/Heading'
 import { FormattedSpotifyArtist } from '~/lib/spotify'
 import { formatNumber } from '~/utils'
 
@@ -14,18 +16,22 @@ const SpotifyArtists: React.FunctionComponent = () => {
     return null
   }
 
-  if (!data) {
-    return null
-  }
-
-  const artists: FormattedSpotifyArtist[] = data.artists
+  const artists: FormattedSpotifyArtist[] = data?.artists ?? null
 
   return (
-    <div>
-      {artists.map((artist, i) => (
-        <ArtistCard artist={artist} rank={i + 1} key={i} />
-      ))}
-    </div>
+    <>
+      <Heading subheading title="Who I'm Listening To" />
+      <p className="text-gray-400 text-lg mb-4">
+        I always have Spotify open. My top played artists over the past month are:
+      </p>
+      <div>
+        {!artists ? (
+          <Skeleton count={5} height={30} />
+        ) : (
+          artists.map((artist, i) => <ArtistCard artist={artist} rank={i + 1} key={i} />)
+        )}
+      </div>
+    </>
   )
 }
 
