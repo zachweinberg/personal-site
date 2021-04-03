@@ -2,7 +2,6 @@ import { NextPage } from 'next'
 import Heading from '~/components/Heading'
 import Layout from '~/components/Layout'
 import Projects from '~/components/Projects'
-import SpotifyArtists from '~/components/SpotifyArtists'
 
 const Index: NextPage = () => (
   <Layout>
@@ -13,7 +12,7 @@ const Index: NextPage = () => (
       </div>
       <p className="text-gray-400 text-lg mb-14">
         I'm a web developer based in Boston. I currently work at{' '}
-        <a href="https://reddoor.com" target="_blank" className="font-semibold hover:text-gray-300">
+        <a href="https://reddoor.com" target="_blank" className="font-semibold hover:text-gray-300 underline">
           RedDoor
         </a>{' '}
         as a full-stack engineer working to improve the mortgage experience for homebuyers. On this site
@@ -23,9 +22,9 @@ const Index: NextPage = () => (
         <Heading subheading title="Recent Projects" />
         <Projects />
       </div>
-      <div>
+      {/* <div>
         <SpotifyArtists />
-      </div>
+      </div> */}
     </div>
   </Layout>
 )

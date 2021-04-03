@@ -9,7 +9,7 @@ export const getProjects = (): Project[] => {
     {
       title: 'Coinbase Pro Clone',
       description:
-        "Recently I thought I would have some fun messing around with React Native. So I'm attempting to rebuild the Coinbase Pro app! Of course, only the basic UI.",
+        "Recently I thought I would have some fun messing around with React Native. So I'm attempting to rebuild only the UI of the Coinbase Pro app.",
       url: 'https://github.com/zachweinberg/coinbasepro-react-native',
     },
     {
@@ -17,6 +17,12 @@ export const getProjects = (): Project[] => {
       description:
         'A tool for accountants that allows them to configure their own ping alerts from QuickBooks Online or Xero that get delivered to Slack, Email or SMS!',
       url: 'https://ifpinger.ai',
+    },
+    {
+      title: 'Cubepros',
+      description:
+        'Cubepros is an accounting form that helps transition your back office into a paperless, efficient powerhouse.',
+      url: 'https://cubepros.com',
     },
     {
       title: 'SongTree',
