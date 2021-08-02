@@ -18,12 +18,7 @@ export const getProjects = (): Project[] => {
         'A tool for accountants that allows them to configure their own ping alerts from QuickBooks Online or Xero that get delivered to Slack, Email or SMS!',
       url: 'https://ifpinger.ai',
     },
-    {
-      title: 'Cubepros',
-      description:
-        'Cubepros is an accounting form that helps transition your back office into a paperless, efficient powerhouse.',
-      url: 'https://cubepros.com',
-    },
+
     {
       title: 'SongTree',
       description:
@@ -42,6 +37,12 @@ export const getProjects = (): Project[] => {
       description:
         'A webapp built with React for a food delivery service based in New Jersey. Orders coming in everyday!',
       url: 'https://www.tapfood.us',
+    },
+    {
+      title: 'Cubepros',
+      description:
+        'Cubepros is an accounting firm that helps transition your back office into a paperless, efficient powerhouse.',
+      url: 'https://cubepros.com',
     },
     {
       title: 'Phish Player',
