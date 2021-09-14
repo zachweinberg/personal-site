@@ -5,8 +5,8 @@ interface Props {
 
 const Heading: React.FunctionComponent<Props> = ({ title, subheading }: Props) => {
   const size = subheading ? 'text-xl md:text-3xl' : 'text-2xl sm:text-5xl'
-  const Tag = subheading ? 'h2' : 'h1'
-  return <Tag className={`font-bold ${size} tracking-tight mb-4`}>{title}</Tag>
+  const Element = subheading ? 'h2' : 'h1'
+  return <Element className={`font-bold ${size} mb-4`}>{title}</Element>
 }
 
 export default Heading
