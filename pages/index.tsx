@@ -34,11 +34,15 @@ const Home = ({ githubProfile }: Props) => (
         <Heading title="Hi there, I'm Zach" />
       </div>
       <p className="my-10 text-lg text-gray-400">
-        I'm a web developer based in Boston. Currently, I work at{' '}
-        <a href="https://reddoor.com" target="_blank" className="font-semibold underline hover:text-gray-300">
-          RedDoor
+        I'm a web developer based in Boston. Currently, I work for{' '}
+        <a
+          href="https://opendoor.com"
+          target="_blank"
+          className="font-semibold underline hover:text-gray-300"
+        >
+          Opendoor
         </a>{' '}
-        as a full-stack engineer working to improve the mortgage experience for homebuyers. On this site
+        as a full-stack web engineer working to improve the mortgage experience for homebuyers. On this site
         you'll find some of my recent projects as well as some information about myself. Thanks for stopping
         by!
       </p>

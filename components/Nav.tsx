@@ -6,9 +6,7 @@ const Nav: React.FunctionComponent = () => {
       <Link href="/">
         <a className="pr-3 md:pr-6 md:text-lg hover:text-gray-300">Home</a>
       </Link>
-      <Link href="/about">
-        <a className="pr-3 md:pr-6 md:text-lg hover:text-gray-300">About</a>
-      </Link>
+
       <a
         className="pr-3 md:pr-6 md:text-lg hover:text-gray-300"
         href="https://github.com/zachweinberg"
@@ -23,7 +21,7 @@ const Nav: React.FunctionComponent = () => {
       >
         LinkedIn
       </a>
-      <a className="pr-3 md:pr-6 md:text-lg hover:text-gray-300" href="/static/resume.pdf" target="_blank">
+      <a className="pr-3 md:pr-6 md:text-lg hover:text-gray-300" href="/resume.pdf" target="_blank">
         Resume
       </a>
     </nav>
