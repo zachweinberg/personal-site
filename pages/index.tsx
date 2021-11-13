@@ -50,9 +50,6 @@ const Home = ({ githubProfile }: Props) => (
         <Heading subheading title="Recent Projects" />
         <Projects />
       </div>
-      {/* <div>
-        <SpotifyArtists />
-      </div> */}
     </div>
   </Layout>
 )
