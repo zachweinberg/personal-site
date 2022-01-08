@@ -2,12 +2,13 @@ import { DefaultSeo } from 'next-seo'
 import { AppProps } from 'next/app'
 import Head from 'next/head'
 import { SkeletonTheme } from 'react-loading-skeleton'
+import { useAnalytics } from '~/lib/analytics'
 import '~/styles/globals.css'
 
 const title = 'Zach Weinberg - Full Stack Web Engineer'
+
 const SEO = {
   title,
-  canonical: 'https://zachweinberg.com',
   openGraph: {
     type: 'website',
     locale: 'en_IE',
@@ -17,6 +18,8 @@ const SEO = {
 }
 
 export default function App({ Component, pageProps }: AppProps) {
+  useAnalytics()
+
   return (
     <>
       <Head>

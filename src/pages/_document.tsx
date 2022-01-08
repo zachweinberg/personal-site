@@ -10,6 +10,7 @@ export default class MyDocument extends Document {
           <link rel="preload" as="image" href="/img/zach.png" />
           <meta name="theme-color" content="#000" />
           <meta name="description" content="Zach Weinberg | Full Stack Web Engineer"></meta>
+          <link rel="preconnect" href="https://cdn.usefathom.com" crossOrigin="" />
         </Head>
         <body>
           <Main />

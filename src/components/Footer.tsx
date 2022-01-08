@@ -1,9 +1,9 @@
 const Footer: React.FunctionComponent = () => {
   return (
-    <footer className="text-center text-gray-700 mt-12">
-      <p className="mb-1">{new Date().getFullYear()} Zach Weinberg</p>
+    <footer className="mt-12 text-center text-gray-700">
+      <p className="mb-1">&copy; {new Date().getFullYear()} Zach Weinberg</p>
       <a
-        className="hover:text-gray-500 text-xs"
+        className="text-xs hover:text-gray-500"
         href="https://github.com/zachweinberg/personal-site"
         target="_blank"
       >
