@@ -33,7 +33,7 @@ const Home: NextPage = () => {
       <div>
         <div className="flex items-center justify-center md:justify-start">
           <img className="w-32 mr-6 rounded-full md:w-36" src={data.avatar_url} />
-          <Heading title="Hi there, I'm Zach." />
+          <Heading title="Hi there, I'm Zach!" />
         </div>
         <p className="my-10 text-lg text-gray-400">
           I'm a web developer based in Boston. Currently, I work for{' '}

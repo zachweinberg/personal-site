@@ -7,6 +7,11 @@ export interface Project {
 export const getProjects = (): Project[] => {
   return [
     {
+      title: 'Reddit Finance',
+      description: 'A listing of investing and/or finance subreddits built with Next.js and the Reddit API.',
+      url: 'https://github.com/zachweinberg/redditfinance',
+    },
+    {
       title: 'Coinbase Pro Clone',
       description:
         "Recently I thought I would have some fun messing around with React Native. So I'm attempting to rebuild only the UI of the Coinbase Pro app.",

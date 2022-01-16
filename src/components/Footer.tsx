@@ -7,7 +7,7 @@ const Footer: React.FunctionComponent = () => {
         href="https://github.com/zachweinberg/personal-site"
         target="_blank"
       >
-        View code
+        This website is open source
       </a>
     </footer>
   )
