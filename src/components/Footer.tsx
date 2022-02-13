@@ -9,6 +9,7 @@ const Footer: React.FunctionComponent = () => {
       >
         This website is open source
       </a>
+      <p className="opacity-0">zweinberg3@gmail.com</p>
     </footer>
   )
 }

@@ -7,12 +7,12 @@ interface ProjectProps {
 
 const Project: React.FunctionComponent<ProjectProps> = ({ project }: ProjectProps) => (
   <a href={project.url} target="_blank">
-    <div className="rounded-lg px-6 py-4 h-full border border-gray-700 hover:bg-gray-900 fade-bg-color">
+    <div className="h-full px-6 py-4 transition-colors border border-gray-700 rounded-lg hover:bg-gray-900 fade-bg-color">
       <div className="flex items-center">
-        <span className="text-lg font-bold mr-2">{project.title}</span>
-        <ExternalLinkIcon className="fill-current h-3 w-3" />
+        <span className="mr-2 text-lg font-bold">{project.title}</span>
+        <ExternalLinkIcon className="w-3 h-3 fill-current" />
       </div>
-      <p className="text-md text-gray-400">{project.description}</p>
+      <p className="text-gray-400 text-md">{project.description}</p>
     </div>
   </a>
 )
@@ -21,7 +21,7 @@ const Projects = () => {
   const projects = getProjects()
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+    <div className="grid grid-cols-1 gap-3 md:grid-cols-2">
       {projects.map((project, index) => (
         <Project project={project} key={index} />
       ))}

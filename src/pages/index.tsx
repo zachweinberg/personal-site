@@ -32,22 +32,26 @@ const Home: NextPage = () => {
     <Layout>
       <div>
         <div className="flex items-center justify-center md:justify-start">
-          <img className="w-32 mr-6 rounded-full md:w-36" src={data.avatar_url} />
+          <img className="w-32 mr-6 rounded-full md:w-36 grayscale" src={data.avatar_url} />
           <Heading title="Hi there, I'm Zach!" />
         </div>
-        <p className="my-10 text-lg text-gray-400">
-          I'm a web developer based in Boston. Currently, I work for{' '}
-          <a
-            href="https://opendoor.com"
-            target="_blank"
-            className="font-semibold underline hover:text-gray-300"
-          >
-            Opendoor
-          </a>{' '}
-          as a full-stack web engineer working to improve the mortgage experience for homebuyers. On this site
-          you'll find some of my recent projects as well as some information about myself. Thanks for stopping
-          by!
-        </p>
+        <div className="my-10 space-y-3 text-gray-400 text-md md:text-lg">
+          <p>I'm a full-stack engineer based in Boston.</p>
+
+          <p>
+            Currently, I work at{' '}
+            <a
+              href="https://opendoor.com"
+              target="_blank"
+              className="font-semibold underline hover:text-gray-300"
+            >
+              Opendoor
+            </a>{' '}
+            trying to improve the mortgage experience for homebuyers by building delightful web applications.
+          </p>
+
+          <p>You can check out some of recent projects below. Thanks for stopping by!</p>
+        </div>
         <div className="mb-14">
           <Heading subheading title="Recent Projects" />
           <Projects />

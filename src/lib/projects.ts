@@ -12,6 +12,12 @@ export const getProjects = (): Project[] => {
       url: 'https://github.com/zachweinberg/redditfinance',
     },
     {
+      title: 'Tapfood',
+      description:
+        'A webapp built with React for a food delivery service based in New Jersey. Orders coming in everyday!',
+      url: 'https://www.tapfood.us',
+    },
+    {
       title: 'Coinbase Pro Clone',
       description:
         "Recently I thought I would have some fun messing around with React Native. So I'm attempting to rebuild only the UI of the Coinbase Pro app.",
@@ -28,7 +34,7 @@ export const getProjects = (): Project[] => {
       title: 'SongTree',
       description:
         'A complete song database backed by the Spotify API. I built this for fun just to have some fun with Spotify data.',
-      url: 'https://songtree.app',
+      url: 'https://github.com/zachweinberg/songtree',
     },
 
     {
@@ -37,12 +43,7 @@ export const getProjects = (): Project[] => {
         'A website for a bus transportation business that transports college students to and from colleges along the east coast.',
       url: 'https://www.mybushome.com',
     },
-    {
-      title: 'Tapfood',
-      description:
-        'A webapp built with React for a food delivery service based in New Jersey. Orders coming in everyday!',
-      url: 'https://www.tapfood.us',
-    },
+
     {
       title: 'Cubepros',
       description:
