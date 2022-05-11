@@ -33,10 +33,13 @@ const Home: NextPage = () => {
       <div>
         <div className="flex items-center justify-center md:justify-start">
           <img className="w-32 mr-6 rounded-full md:w-36 grayscale" src={data.avatar_url} />
-          <Heading title="Hi there, I'm Zach!" />
+          <div>
+            <Heading title="Zach Weinberg" />
+            <p className="text-2xl text-gray-300">Full Stack Engineer</p>
+          </div>
         </div>
         <div className="my-10 space-y-3 text-gray-400 text-md md:text-lg">
-          <p>I'm a full-stack engineer based in Boston.</p>
+          <p>Hey, I'm a web developer based in Boston.</p>
 
           <p>
             Currently, I work at{' '}
@@ -47,7 +50,7 @@ const Home: NextPage = () => {
             >
               Opendoor
             </a>{' '}
-            trying to improve the mortgage experience for homebuyers by building delightful web applications.
+            working to improve the mortgage experience for homebuyers by building delightful web apps.
           </p>
 
           <p>You can check out some of recent projects below. Thanks for stopping by!</p>
