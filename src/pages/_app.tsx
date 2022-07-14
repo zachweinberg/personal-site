@@ -5,7 +5,7 @@ import { SkeletonTheme } from 'react-loading-skeleton'
 import { useAnalytics } from '~/lib/analytics'
 import '~/styles/globals.css'
 
-const title = 'Zach Weinberg - Full Stack Web Engineer'
+const title = 'Zach Weinberg - Full Stack Engineer'
 
 const SEO = {
   title,
@@ -24,7 +24,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <meta content="width=device-width, initial-scale=1" name="viewport" />
-        <title>Zach Weinberg - Full Stack Web Engineer</title>
+        <title>Zach Weinberg - Full Stack Engineer</title>
       </Head>
       <DefaultSeo {...SEO} />
       <SkeletonTheme color="#191919" highlightColor="#404040">

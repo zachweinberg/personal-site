@@ -35,7 +35,7 @@ const Home: NextPage = () => {
           <img className="w-32 mr-6 rounded-full md:w-36 grayscale" src={data.avatar_url} />
           <div>
             <Heading title="Zach Weinberg" />
-            <p className="text-2xl text-gray-300">Full Stack Engineer</p>
+            <p className="text-2xl text-gray-300">Software Engineer</p>
           </div>
         </div>
         <div className="my-10 space-y-3 text-gray-400 text-md md:text-lg">
