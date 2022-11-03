@@ -8,7 +8,8 @@ export const getProjects = (): Project[] => {
   return [
     {
       title: 'Reddit Finance',
-      description: 'A listing of investing and/or finance subreddits built with Next.js and the Reddit API.',
+      description:
+        'Wanted to check out the Reddit API. A listing of investing and/or finance subreddits built with Next.js and the Reddit API.',
       url: 'https://github.com/zachweinberg/redditfinance',
     },
     {
@@ -49,12 +50,6 @@ export const getProjects = (): Project[] => {
       description:
         'Cubepros is an accounting firm that helps transition your back office into a paperless, efficient powerhouse.',
       url: 'https://cubepros.com',
-    },
-    {
-      title: 'Phish Player',
-      description:
-        'A small app to explore the music of the band Phish and search and play songs. Backed by the phish.in API.',
-      url: 'https://phish.zachweinberg.com',
     },
   ]
 }

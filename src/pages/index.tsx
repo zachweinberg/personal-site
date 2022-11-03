@@ -35,11 +35,11 @@ const Home: NextPage = () => {
           <img className="w-32 mr-6 rounded-full md:w-36 grayscale" src={data.avatar_url} />
           <div>
             <Heading title="Zach Weinberg" />
-            <p className="text-2xl text-gray-300">Software Engineer</p>
+            <p className="text-2xl text-gray-300">Full Stack Software Engineer</p>
           </div>
         </div>
-        <div className="my-10 space-y-3 text-gray-400 text-md md:text-lg">
-          <p>Hey, I'm a web developer based in Boston.</p>
+        <div className="my-8 space-y-3 text-gray-400 text-md md:text-lg">
+          <p>Hi, I'm a web developer based in Boston.</p>
 
           <p>
             Currently, I work at{' '}
@@ -53,7 +53,7 @@ const Home: NextPage = () => {
             working to improve the mortgage experience for homebuyers by building delightful web apps.
           </p>
 
-          <p>You can check out some of recent projects below. Thanks for stopping by!</p>
+          <p>You can check out some of my recent work below. Thanks for stopping by!</p>
         </div>
         <div className="mb-14">
           <Heading subheading title="Recent Projects" />
