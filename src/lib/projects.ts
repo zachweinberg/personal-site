@@ -7,6 +7,12 @@ export interface Project {
 export const getProjects = (): Project[] => {
   return [
     {
+      title: 'Snowball',
+      description:
+        'A net worth tracker to keep a pulse on all of your financial assets in one place. Work in progress!',
+      url: 'https://github.com/zachweinberg/snowball',
+    },
+    {
       title: 'Reddit Finance',
       description:
         'Wanted to check out the Reddit API. A listing of investing and/or finance subreddits built with Next.js and the Reddit API.',
