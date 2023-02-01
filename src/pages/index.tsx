@@ -39,20 +39,7 @@ const Home: NextPage = () => {
           </div>
         </div>
         <div className="my-8 space-y-3 text-gray-400 text-md md:text-lg">
-          <p>Hi, I'm a web developer based in Boston.</p>
-
-          <p>
-            Currently, I work at{' '}
-            <a
-              href="https://opendoor.com"
-              target="_blank"
-              className="font-semibold underline hover:text-gray-300"
-            >
-              Opendoor
-            </a>{' '}
-            working to improve the mortgage experience for homebuyers by building delightful web apps.
-          </p>
-
+          <p>Hey there, I'm a web engineer based in Boston.</p>
           <p>You can check out some of my recent work below. Thanks for stopping by!</p>
         </div>
         <div className="mb-14">
