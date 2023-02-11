@@ -35,11 +35,24 @@ const Home: NextPage = () => {
           <img className="w-32 mr-6 rounded-full md:w-36 grayscale" src={data.avatar_url} />
           <div>
             <Heading title="Zach Weinberg" />
-            <p className="text-2xl text-gray-300">Full Stack Software Engineer</p>
+            <p className="text-2xl text-gray-300">Senior Software Engineer</p>
           </div>
         </div>
         <div className="my-8 space-y-3 text-gray-400 text-md md:text-lg">
-          <p>Hey there, I'm a web engineer based in Boston.</p>
+          <p>Hey there, I'm an engineer based in Boston.</p>
+          
+          <p>
+            Currently, I work at{' '}
+            <a
+              href="https://www.relay.delivery"
+              target="_blank"
+              className="font-semibold underline hover:text-gray-300"
+            >
+              Relay
+            </a>{' '}
+            working on food delivery logistics to help restaurants save money!
+         </p>
+
           <p>You can check out some of my recent work below. Thanks for stopping by!</p>
         </div>
         <div className="mb-14">
