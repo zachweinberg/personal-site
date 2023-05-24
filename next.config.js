@@ -6,6 +6,11 @@ module.exports = {
         destination: '/resume.pdf',
         permanent: true,
       },
+      {
+        source: '/',
+        destination: 'https://linkedin.com/in/zweinberg3',
+        permanent: false,
+      },
     ]
   },
 }

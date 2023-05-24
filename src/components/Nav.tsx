@@ -10,7 +10,7 @@ const Nav: React.FunctionComponent = () => {
       </a>
       <a
         className="pr-3 md:pr-6 md:text-lg hover:text-gray-400"
-        href="https://www.linkedin.com/in/zachjamesweinberg"
+        href="https://www.linkedin.com/in/zweinberg3"
         target="_blank"
       >
         LinkedIn
