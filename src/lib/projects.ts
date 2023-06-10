@@ -13,12 +13,6 @@ export const getProjects = (): Project[] => {
       url: 'https://github.com/zachweinberg/snowball',
     },
     {
-      title: 'Reddit Finance',
-      description:
-        'Wanted to check out the Reddit API. A listing of investing and/or finance subreddits built with Next.js and the Reddit API.',
-      url: 'https://github.com/zachweinberg/redditfinance',
-    },
-    {
       title: 'Tapfood',
       description:
         'A webapp built with React for a food delivery service based in New Jersey. Orders coming in everyday!',
@@ -31,12 +25,23 @@ export const getProjects = (): Project[] => {
       url: 'https://github.com/zachweinberg/coinbasepro-react-native',
     },
     {
+      title: 'Cubepros',
+      description:
+        'Cubepros is an accounting firm that helps transition your back office into a paperless, efficient powerhouse.',
+      url: 'https://cubepros.com',
+    },
+    {
       title: 'Pinger',
       description:
         'A tool for accountants that allows them to configure their own ping alerts from QuickBooks Online or Xero that get delivered to Slack, Email or SMS!',
       url: 'https://ifpinger.ai',
     },
-
+    {
+      title: 'Reddit Finance',
+      description:
+        'Wanted to check out the Reddit API. A listing of investing and/or finance subreddits built with Next.js and the Reddit API.',
+      url: 'https://github.com/zachweinberg/redditfinance',
+    },
     {
       title: 'SongTree',
       description:
@@ -49,13 +54,6 @@ export const getProjects = (): Project[] => {
       description:
         'A website for a bus transportation business that transports college students to and from colleges along the east coast.',
       url: 'https://www.mybushome.com',
-    },
-
-    {
-      title: 'Cubepros',
-      description:
-        'Cubepros is an accounting firm that helps transition your back office into a paperless, efficient powerhouse.',
-      url: 'https://cubepros.com',
     },
   ]
 }
