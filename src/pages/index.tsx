@@ -39,7 +39,20 @@ const Home: NextPage = () => {
           </div>
         </div>
         <div className="my-8 space-y-3 text-gray-400 text-md md:text-lg">
-          <p>Hey there, I'm an engineer based in Boston.</p>
+          <p>Hey there, I'm an engineer based in Boston!</p>
+
+          <p>
+            Currently, I work at{' '}
+            <a
+              href="https://nerdwallet.com"
+              target="_blank"
+              className="font-semibold underline hover:text-gray-300"
+            >
+              Nerdwallet
+            </a>{' '}
+            working on helping people improve their personal finances.
+          </p>
+
           <p>You can check out some of my recent work below. Thanks for stopping by!</p>
         </div>
         <div className="mb-14">
