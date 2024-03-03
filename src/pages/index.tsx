@@ -48,7 +48,7 @@ const Home: NextPage = () => {
               target="_blank"
               className="font-semibold underline hover:text-gray-300"
             >
-              Nerdwallet
+              NerdWallet
             </a>{' '}
             to help people people find the best financial products for their needs.
           </p>
