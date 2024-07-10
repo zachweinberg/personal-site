@@ -50,7 +50,7 @@ const Home: NextPage = () => {
             >
               NerdWallet
             </a>{' '}
-            to help people people find the best financial products for their needs.
+            to help people find the best financial products for their needs.
           </p>
 
           <p>You can check out some of my recent work below. Thanks for stopping by!</p>
