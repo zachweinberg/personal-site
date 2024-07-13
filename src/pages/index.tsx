@@ -53,7 +53,7 @@ const Home: NextPage = () => {
             to help people find the best financial products for their needs.
           </p>
 
-          <p>You can check out some of my recent work below. Thanks for stopping by!</p>
+          <p>You can check out some of my recent work below. Thanks for stopping by 😄</p>
         </div>
         <div className="mb-14">
           <Heading subheading title="Recent Projects" />
