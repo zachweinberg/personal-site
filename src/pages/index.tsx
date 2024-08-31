@@ -39,7 +39,7 @@ const Home: NextPage = () => {
           </div>
         </div>
         <div className="my-8 space-y-3 text-gray-400 text-md md:text-lg">
-          <p>Hey there, I'm an engineer based in Boston!</p>
+          <p>Hey there!</p>
 
           <p>
             Currently, I work at{' '}
