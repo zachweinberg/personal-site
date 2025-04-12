@@ -1,10 +1,8 @@
 import Footer from '~/components/Footer'
-import Nav from '~/components/Nav'
 
 const Layout: React.FunctionComponent = ({ children }) => {
   return (
-    <div className="flex flex-col min-h-screen max-w-3xl mx-auto p-6 text-white">
-      <Nav />
+    <div className="flex flex-col max-w-3xl min-h-screen p-6 mx-auto mt-2 text-white">
       <main>{children}</main>
       <Footer />
     </div>

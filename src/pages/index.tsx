@@ -2,6 +2,7 @@ import { NextPage } from 'next'
 import useSWR from 'swr'
 import Heading from '~/components/Heading'
 import Layout from '~/components/Layout'
+import Nav from '~/components/Nav'
 import Projects from '~/components/Projects'
 
 interface GithubProfile {
@@ -38,25 +39,19 @@ const Home: NextPage = () => {
             <p className="text-2xl text-gray-300">Senior Software Engineer</p>
           </div>
         </div>
-        <div className="my-8 space-y-3 text-gray-400 text-md md:text-lg">
-          <p>Hey there!</p>
+        <div className="my-8 space-y-3 text-gray-200 text-md md:text-lg">
+          <p>Hey there, thanks for visiting!</p>
 
           <p>
-            Currently, I work at{' '}
-            <a
-              href="https://nerdwallet.com"
-              target="_blank"
-              className="font-semibold underline hover:text-gray-300"
-            >
-              NerdWallet
-            </a>{' '}
-            to help people find the best financial products for their needs.
+            I'm a software engineer who specializes in building financial products that make a difference in
+            consumers' lives.
           </p>
 
-          <p>You can check out some of my recent work below. Thanks for stopping by 😄</p>
+          <Nav />
+
+          <p>You can check out some of my work below:</p>
         </div>
         <div className="mb-14">
-          <Heading subheading title="Recent Projects" />
           <Projects />
         </div>
       </div>
