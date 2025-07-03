@@ -21,7 +21,7 @@
   "dependencies": {
     "autoprefixer": "^10.4.21",
     "fathom-client": "^3.7.2",
-    "next": "^15.3.2",
+    "next": "^15.3.4",
     "next-seo": "^6.0.0",
     "postcss": "^8.5.3",
     "querystring": "^0.2.1",
