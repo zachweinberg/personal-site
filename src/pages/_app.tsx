@@ -10,7 +10,7 @@ const SEO = {
   title,
   openGraph: {
     type: 'website',
-    locale: 'en_IE',
+    locale: 'en_US',
     url: 'https://zachweinberg.com',
     title,
   },
