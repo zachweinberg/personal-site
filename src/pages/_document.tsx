@@ -5,6 +5,8 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:locale:alternate" content="en_US" />
           <link rel="preload" href="/fonts/karla.ttf" as="font" type="font/ttf" crossOrigin="anonymous" />
           <link rel="preload" as="image" href="/img/zach.png" />
           <meta name="theme-color" content="#000" />
